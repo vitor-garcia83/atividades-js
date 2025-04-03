@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require('express');
 const estoque = require('./estoque');
 const app = express();
@@ -40,4 +41,4 @@ app.get('/remover/:id', (req, res) => {
 const PORT = 8080;
 app.listen(PORT, () => {
     console.log('app rodando na porta ' + PORT);
-});
+=======
